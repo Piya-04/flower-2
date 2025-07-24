@@ -10,16 +10,17 @@
 <body class="mx-auto max-h-[71px] max-w-[1140px] bg-slate-100">
     
     <!-- Navbar section starts-->
-     <nav class="flex justify-between  items-center pt-8 sm:hidden">
+     <nav class="flex justify-between  items-center pt-8">
         <div class="">
             <img src="/assets/logo.png" alt="" />
         </div>
-        <ul class="flex font-sans">
-            <li class="list-none"> <a href="" class="no-underline pr-7 text-xl"><b>Home</b></a></li>
+        
+        <ul class="flex font-sans ">
+            <li class="list-none hidden md:block"> <a href="" class="no-underline pr-7 text-xl"><b>Home</b></a></li>
 
-            <li class="list-none text-gray-400 f"><a href="" class="no-underline pr-7 text-xl">Shop</a></li>
+            <li class="list-none hidden md:block text-gray-400 f"><a href="" class="no-underline pr-7 text-xl">Shop</a></li>
 
-            <li class="list-none text-gray-400"><a href="" class="no-underline pr-7 v">About Us</a></li>
+            <li class="list-none hidden md:block text-gray-400"><a href="" class="no-underline pr-7 text-xl">About Us</a></li>
 
             <div class="flex">
                 <img src="/assets/shopping-cart.png" class="h-6 w-6" />
@@ -31,8 +32,8 @@
      <!-- Navbar section ends -->
     
      <!-- Hero section starts -->
-        <section class=" pt-70 pb-30  ml-13 md:ml-0 flex
-        text-4xl md:text-5xl xl:text-7xl md:leading-10 xl:leading-25 px-4 md:px-0 ">
+        <section class=" pt-50 
+        pb-30  flex flex-col-reverse md:flex-row items-center md:items-start gap-6 px-4  ">
             <div>
         <div class="font-serif text-6xl font-extrabold pb-8">
             <span class="font-serif ">
@@ -57,8 +58,8 @@
       </section>
 
       <!-- Plant section start-->
-<main class=" bg-white pt-6">
-    <div class="flex space-x-4 justify-center pb-6">
+<main class=" bg-white pt-6 ">
+    <div class="flex space-x-4 justify-center pb-10">
         <span class="text-[#E95A08] md:text-4xl font-bold font-serif"><h1> OUR </h1></span>
         <span class="md:text-4xl font-bold font-serif"><h1>PLANTS</h1></span> </div>
         <div class="flex justify-center ">
@@ -66,7 +67,7 @@
                 <br>classic roses to exotic blooms, we offer a wide variety of fresh.
 
     </p></div>
-       <section class="w-full grid grid-rows-2 grid-cols-4 gap-x-6 gap-y-6">
+       <section class="w-full grid grid-rows-2 grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-6">
         <div class=" flex flex-col justify-around items-center md:grid-cols-2 grid-rows-4 md:max-w-2xl">
             <img src="assets/sample-flower-image.png" class="w-full" alt="" />
             <div class="text-center mt-2">
@@ -148,12 +149,12 @@
        <!-- Plant section end -->
 
 <!-- Plant lover section -->
-<section class=" mt-35 mb-5 ">
-    <div class="flex">
+<section class=" mt-35 mb-10 ">
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-6 px-4">
         <div class="relative inline-block">
 <img class="w-full" src="assets/flower-store.png" alt="" />
 <img src="assets/trusted-badge.png" 
-class="absolute -top-1/5 -right-29 w-xs animate-bounce" />
+class="absolute -top-1/5 -right-29 w-xs animate-bounce hidden md:block " />
         </div>
 
 <div class=" ml-17">
